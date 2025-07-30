@@ -42,22 +42,25 @@ img {
 /*Change page color,font color, and font size*/
 body {
   background-color: #ffffff;
-  font-family: "Gamja Flower", sans-serif;
+   font-family: "Crafty Girls", cursive;
   margin: 0;
 }
 
 /* Changes font for headings only*/
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Leckerli One", cursive;
+h2,h3,h4,h5,h6 {
+       font-family: "Gwendolyn", cursive;
 }
 
+h1 {
+    font-family: "Leckerli One", cursive;
+}
 header.primary {
-  background-color: #B3CCE66 ;
+  background-color:#ffffff;
   text-align: center;
   color: #ffffff;
   padding: 30px;
   text-shadow: 2px 2px #000000;
-  background-color: #E69A93;
+  background-color: #B3CCE6;
 
 }
 
