@@ -11,7 +11,13 @@
 }
 
 /* Customize Slideshow */
-
+ 
+.container.fade{
+  margin:40px auto;
+  width:70vw;
+  /*Set Max Content Width*/
+ max-width:700px;
+}
 /* Customize Previous/Next/Dots/Autoplay */
 
 .slick-autoplay-toggle-button,
@@ -19,7 +25,7 @@
 .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: white;
+  color: #000000;
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
@@ -41,14 +47,14 @@ img {
 }
 /*Change page color,font color, and font size*/
 body {
-  background-color: #ffffff;
+  background-color:#fff1d6;
    font-family: "Crafty Girls", cursive;
   margin: 0;
 }
 
 /* Changes font for headings only*/
 h2,h3,h4,h5,h6 {
-       font-family: "Gwendolyn", cursive;
+       font-family: "Crafty Girls", cursive;
 }
 
 h1 {
