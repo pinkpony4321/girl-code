@@ -18,6 +18,10 @@
   /*Set Max Content Width*/
  max-width:700px;
 }
+
+.slick-slide img {
+  margin: 0 auto;
+}
 /* Customize Previous/Next/Dots/Autoplay */
 
 .slick-autoplay-toggle-button,
@@ -47,14 +51,19 @@ img {
 }
 /*Change page color,font color, and font size*/
 body {
-  background-color:#fff1d6;
+  background-color:#fff7e8;
    font-family: "Crafty Girls", cursive;
   margin: 0;
 }
 
 /* Changes font for headings only*/
-h2,h3,h4,h5,h6 {
+h2 {
        font-family: "Crafty Girls", cursive;
+       color: #ffdfdc;
+}
+
+h3,h4,h5,h6{
+  font-family: "Unkempt", cursive;
 }
 
 h1 {
@@ -177,6 +186,10 @@ aside a {
 
 aside footer {
   display: none;
+}
+
+.widget{
+  width:50%;
 }
 
 #colophon {
